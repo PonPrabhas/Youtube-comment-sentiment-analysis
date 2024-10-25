@@ -15,7 +15,7 @@ def get_video_details(youtube_url):
     """
     Retrieves video details (thumbnail, description, title) from YouTube API.
     """
-    api_key = "AIzaSyArgLsgLbELuDqKF0jAGhRUJ1PkRHLpOec"  # Replace this with your actual YouTube API key
+    api_key = "YOUR API KEY"  # Replace this with your actual YouTube API key
     video_id = extract_video_id(youtube_url)
 
     if not video_id:
@@ -46,7 +46,7 @@ def scrape_comments(youtube_url, max_comments=15):
     Scrapes comments from a YouTube video.
     Limits the number of comments to max_comments.
     """
-    api_key = "AIzaSyArgLsgLbELuDqKF0jAGhRUJ1PkRHLpOec"  # Replace this with your actual YouTube API key
+    api_key = "YOUR API KEY"  # Replace this with your actual YouTube API key
     video_id = extract_video_id(youtube_url)
 
     if not video_id:
