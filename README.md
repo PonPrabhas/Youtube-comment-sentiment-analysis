@@ -8,3 +8,9 @@ trained model was integrated into a web application that allows users to input Y
 URLs, scrape the comments, and visualize the sentiment results. This solution provides an 
 intuitive and user-friendly way to understand the general sentiment expressed in YouTube 
 comment sections
+
+In this project, You first need to run YouTubeTrain.ipynb file, then you got model.pkl and vectorizer.pkl 
+Replace the pickle files in your app.py code
+and run the flask app
+
+This web application uses Pycharm for app with Flask framework for the web applicaiton and Google colab for training the model
