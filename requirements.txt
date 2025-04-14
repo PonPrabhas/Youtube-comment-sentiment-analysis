@@ -1,0 +1,8 @@
+flask==3.0.3
+googleapiclient==2.144.0
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+joblib==1.4.2
+pickle
+scipy==1.14.1
